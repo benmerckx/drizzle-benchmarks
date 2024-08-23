@@ -47,6 +47,9 @@ importers:
       prisma:
         specifier: ^5.18.0
         version: 5.18.0
+      rado:
+        specifier: ^1.0.8
+        version: 1.0.8
       ramda:
         specifier: ^0.29.0
         version: 0.29.0
@@ -1184,9 +1187,6 @@ packages:
   ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
-  nan@2.17.0:
-    resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
-
   nan@2.19.0:
     resolution: {integrity: sha512-nO1xXxfh/RWNxfd/XPfbIfFk5vgLsAxUR9y5O0cHMJu/AW9U95JLXqthYHjEp+8gQ5p96K9jUp8nbVOxCdRbtw==}
 
@@ -1379,6 +1379,9 @@ packages:
 
   pump@3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
+
+  rado@1.0.8:
+    resolution: {integrity: sha512-rUs0ivuTnVppLGWSLHa/dGGpxR3KbDiw2c94OKT/fabt4MXqurDGbEZnEjYfq3RRoZJ56cwn/1PF0Y2QtEWcGg==}
 
   ramda@0.29.0:
     resolution: {integrity: sha512-BBea6L67bYLtdbOqfp8f58fPMqEwx0doL+pAi8TZyp2YWz8R9G8z9x75CZI8W+ftqhFHCpEX2cRnUUXK130iKA==}
@@ -2113,7 +2116,7 @@ snapshots:
   cpu-features@0.0.8:
     dependencies:
       buildcheck: 0.0.6
-      nan: 2.17.0
+      nan: 2.19.0
     optional: true
 
   date-fns@2.30.0:
@@ -2524,9 +2527,6 @@ snapshots:
 
   ms@2.1.2: {}
 
-  nan@2.17.0:
-    optional: true
-
   nan@2.19.0: {}
 
   napi-build-utils@1.0.2: {}
@@ -2727,6 +2727,8 @@ snapshots:
       end-of-stream: 1.4.4
       once: 1.4.0
 
+  rado@1.0.8: {}
+
   ramda@0.29.0: {}
 
   rc@1.2.8:
@@ -2823,7 +2825,7 @@ snapshots:
       bcrypt-pbkdf: 1.0.2
     optionalDependencies:
       cpu-features: 0.0.8
-      nan: 2.17.0
+      nan: 2.19.0
 
   ssri@9.0.1:
     dependencies:
